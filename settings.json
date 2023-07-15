@@ -1,0 +1,216 @@
+{
+    "workbench.startupEditor": "none",
+    "workbench.layoutControl.enabled": false,
+    "workbench.iconTheme": "gruvbox-material-icon-theme",
+    "editor.fontFamily": "'hasklig'",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 12,
+    "editor.cursorStyle": "block",
+    "editor.minimap.enabled": false,
+    "editor.formatOnSave": true,
+    "editor.smoothScrolling": true,
+    "git.autofetch": false,
+    "gruvboxMaterial.darkContrast": "hard",
+    "gruvboxMaterial.darkCursor": "blue",
+    "gruvboxMaterial.darkPalette": "mix",
+    "gruvboxMaterial.diagnosticTextBackgroundOpacity": "12.5%",
+    "gruvboxMaterial.darkWorkbench": "flat",
+    "explorer.confirmDragAndDrop": false,
+    "audioCues.volume": 45,
+    "vim.camelCaseMotion.enable": false,
+    "vim.cursorStylePerMode.insert": "line",
+    "vim.foldfix": true,
+    "vim.leader": "<space>",
+    "vim.useSystemClipboard": true,
+    "vim.easymotion": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "k"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["H"],
+            "after": ["_"]
+        },
+        {
+            "before": ["L"],
+            "after": ["$"]
+        },
+        {
+            "before": ["<S-j>"],
+            "after": ["<C-d>", "z", "z"]
+        },
+        {
+            "before": ["<S-k>"],
+            "after": ["<C-u>", "z", "z"]
+        },
+        {
+            "before": ["<leader>", "b"],
+            "commands": ["breadcrumbs.focusAndSelect"],
+            "silent": true
+        },
+        {
+            "before": ["<leader>", "|"],
+            "commands": [":vsplit"],
+            "silent": true
+        },
+        {
+            "before": ["<leader>", "-"],
+            "commands": [":split"],
+            "silent": true
+        },
+        {
+            "before": ["<leader>", "h"],
+            "commands": ["workbench.action.focusLeftGroup"],
+            "silent": true
+        },
+        {
+            "before": ["<leader>", "l"],
+            "commands": ["workbench.action.focusRightGroup"],
+            "silent": true
+        },
+        {
+            "before": ["<leader>", "k"],
+            "commands": ["workbench.action.focusAboveGroup"],
+            "silent": true
+        },
+        {
+            "before": ["<leader>", "j"],
+            "commands": ["workbench.action.focusBelowGroup"],
+            "silent": true
+        },
+        {
+            "before": ["<leader>", "r"],
+            "commands": ["code-runner.run"],
+            "silent": true
+        },
+        // fold
+        {
+            "before": ["<leader>", "f", "a"],
+            "commands": ["editor.foldAll"],
+            "silent": true
+        },
+        {
+            "before": ["<leader>", "u", "a"],
+            "commands": ["editor.unfoldAll"],
+            "silent": true
+        },
+        {
+            "before": ["<leader>", "u", "t"],
+            "commands": ["editor.unfoldRecursively"],
+            "silent": true
+        },
+        {
+            "before": ["<leader>", "f", "t"],
+            "commands": ["editor.foldRecursively"],
+            "silent": true
+        },
+        // debug
+        {
+            "before": ["<leader>", "d", "b"],
+            "commands": ["editor.debug.action.toggleBreakpoint"],
+            "silent": true
+        },
+        // tabs
+        {
+            "before": ["<leader>", "t", "e"],
+            "commands": ["workbench.action.closeOtherEditors"],
+            "silent": true
+        },
+        // tasks
+        {
+            "before": ["<leader>", "t", "r"],
+            "commands": ["workbench.action.tasks.runTask"],
+            "silent": true
+        }
+    ],
+    "vim.visualModeKeyBindings": [],
+    "vim.handleKeys": {
+        "<C-f>": false,
+        "<C-w>": false,
+        "<C-a>": false,
+        "<C-k>": false,
+        "<C-b>": false,
+        "<C-g>": false,
+        "<C-h>": false,
+        "<C-r>": false,
+        "<C-n>": false,
+        "<S-l>": false,
+        "<S-h>": false,
+        "<C-z>": false,
+        "<C-e>": false
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.editor.closeOnFileDelete": true,
+    "tabnine.experimentalAutoImports": true,
+    "boot-java.rewrite.reconcile": true,
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.fontWeight": "400",
+    "code-runner.executorMap": {
+        "javascript": "node",
+        "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+        "python": "python3 "
+    },
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.fileDirectoryAsCwd": true,
+    "code-runner.saveAllFilesBeforeRun": true,
+    "vim.smartRelativeLine": true,
+    "editor.lineNumbers": "relative",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnType": true
+    },
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 120,
+    "gruvboxMaterial.colorfulSyntax": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "autoDocstring.quoteStyle": "'''",
+    "autoDocstring.startOnNewLine": true,
+    "editor.inlineSuggest.enabled": false,
+    "editor.guides.bracketPairs": true,
+    "vim.highlightedyank.enable": true,
+    "vim.targets.enable": true,
+    "gruvboxMaterial.darkSelection": "orange",
+    "python.terminal.executeInFileDir": true,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.showRunCommandInExplorerContextMenu": false,
+    "terminal.explorerKind": "external",
+    "code-runner.runInTerminal": true,
+    "code-runner.showExecutionMessage": false,
+    "code-runner.showRunCommandInEditorContextMenu": false,
+    "git.autorefresh": false,
+    "github.gitProtocol": "ssh",
+    "git.autoRepositoryDetection": false,
+    "github.gitAuthentication": false,
+    "workbench.sideBar.location": "right",
+    "prettier.tabWidth": 4,
+    "files.exclude": {
+        "**/__pycache__": true
+    },
+    "terminal.integrated.copyOnSelection": true,
+    "glassit.alpha": 220,
+    "excalidraw.theme": "dark",
+    "workbench.activityBar.visible": false,
+    "workbench.colorTheme": "Gruvbox Material Dark",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "excalidraw.language": "en",
+    "excalidraw.image": {
+        "exportScale": 1,
+        "exportWithBackground": false,
+        "exportWithDarkMode": true
+    },
+    "editor.stickyScroll.enabled": true,
+    "window.menuBarVisibility": "toggle",
+    "redhat.telemetry.enabled": true,
+}
+
